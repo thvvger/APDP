@@ -1,0 +1,214 @@
+{% extends 'base.html.twig' %}
+
+{% block title "Accueil" %}
+
+{% block body %}
+
+    <div class="row" style="--bs-gutter-x: 0;">
+        <div class="actualites col-md-4">
+            <div class="">CONSEILS PRATIQUES</div>
+            <div class="">SENSIBILISTAION</div>
+            <div class="">ARNARQUE DU MOIS</div>
+        </div>
+        <div class="col-md-8">
+            <img src="{{ asset('bannor.png') }}" alt="" style="height: 100%; width: 100%">
+        </div>
+    </div>
+
+    <div class="container">
+        <!--
+        <div class="" style="background: darkslategrey; margin-top: 20px; padding: 10px; color: white; font-weight: bold; border-radius: 10px">
+            <div class="title" style="border-left: 10px solid white; padding: 0 7px">SERVICE EN LIGNE</div>
+            <div class="row">
+                <div class="col-6">
+                    123
+                </div>
+                <div class="col-6">
+                    456
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="section-title">
+            VOUS ÊTES UN PARTICULITER ?
+        </div>
+
+        <div class="row tip-row">
+            <div class="col-md-6 tip">
+                <div class="tip-image">
+                    <img style="height: 100px" src="{{ asset('arrondie1.png') }}" alt="">
+                </div>
+                <div class="tip-text">
+                    <div class="">
+                        <div class="tip-text-title">
+                            COMPRENDRE VOS DROITS
+
+                        </div>
+                        <div class="tip-text-content">
+                            Chaque personne dont les données à caractère personnel font l'objet d'un traitement dispose d'un certain ...
+                        </div>
+                    </div>
+                    <div>
+                        <img src="{{ asset('Lien_arrondie.png') }}" alt="" style="width: 70px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 tip">
+                <div class="tip-image">
+                    <img style="height: 100px" src="{{ asset('arrondie2.png') }}" alt="">
+                </div>
+                <div class="tip-text">
+                    <div class="">
+                        <div class="tip-text-title">
+                            EXERCER VOS DROITS
+
+                        </div>
+                        <div class="tip-text-content">
+                            Pour vous faciliter la saisine de la Commission ou des responsables de traitement portant sur vos données ...
+                        </div>
+                    </div>
+                    <div>
+                        <img src="{{ asset('Lien_arrondie.png') }}" alt="" style="width: 70px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">
+            VOUS ÊTES UN ORGANISME ?
+        </div>
+
+        <div class="row tip-row">
+            <div class="col-md-6 tip">
+                <div class="tip-image">
+                    <img style="height: 100px" src="{{ asset('arrondie3.png') }}" alt="">
+                </div>
+                <div class="tip-text">
+                    <div class="">
+                        <div class="tip-text-title">
+                            VOS OBLIGATIONS
+                        </div>
+                        <div class="tip-text-content">
+                            Le responsable d'un traitement de données à caractère personel est tenu par une obligation de confidentialité...
+                        </div>
+                    </div>
+                    <div>
+                        <img src="{{ asset('Lien_arrondie.png') }}" alt="" style="width: 70px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 tip">
+                <div class="tip-image">
+                    <img style="height: 100px" src="{{ asset('arrondie4.png') }}" alt="">
+                </div>
+                <div class="tip-text">
+                    <div class="">
+                        <div class="tip-text-title">
+                            VOS FORMALITES AUPRES DE L'AUTORITE
+
+                        </div>
+                        <div class="tip-text-content">
+                            Selon la nature du traitement envisagé, les responsables des traitements opérés pour le compte de l'Etat ou ...
+                        </div>
+                    </div>
+                    <div>
+                        <img src="{{ asset('Lien_arrondie.png') }}" alt="" style="width: 70px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding: 10px">
+            <div class="col-md-6" style="margin: 0 auto; width:48%; border: 5px solid rgb(13, 110, 119); border-radius: 30px; padding: 15px;">
+                <div style="border-left: 10px solid rgb(13, 110, 119); padding: 0 10px;">
+                    <h6 style="font-weight: bold">A PROPOS DE L'APDP</h6>
+                    <p class="small text-muted">L'autorité de protection des données personnelles (APDP) est chargée de veiller à ce que l'informatique soit au service du cotoyen et qu'elle ne porte atteinte à l'identité humaine, aux droits de l'Homme, à la vie privée, aux libertés individuelles ou publiques.</p>
+                </div>
+                <div style="border-left: 10px solid white; padding: 0 10px;"><a href="" style="background: rgb(13, 110, 119); padding: 12px; border-radius: 10px; color: white">En savoir plus</a></div>
+            </div>
+            <div class="col-md-6" style="margin: 0 auto; width:48%; border: 5px solid rgb(13, 110, 119); border-radius: 30px; padding: 15px;">
+                <div style="border-left: 10px solid rgb(13, 110, 119); padding: 0 10px;">
+                    <h6 style="font-weight: bold">TEXTEX COMMUNAUTAIRES</h6>
+                    <p class="small text-muted">L'autorité de protection des données personnelles (APDP) est chargée de veiller à ce que l'informatique soit au service du cotoyen et qu'elle ne porte atteinte à l'identité humaine, aux droits de l'Homme, à la vie privée, aux libertés individuelles ou publiques.</p>
+                </div>
+                <div style="border-left: 10px solid white; padding: 0 10px;"><a href="" style="background: rgb(13, 110, 119); padding: 12px; border-radius: 10px; color: white">En savoir plus</a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div>
+            <div class="container p-4">
+                <h2 style="border-left: 10px solid white; padding:10px 10px;">Restez connecté</h2>
+                <div class="row" style="padding: 20px 0 0 0;">
+                    <div class="col-md-6">
+                        <h5>LA NEWSLETTER</h5>
+                        <p>
+                            Recevez périodiquement l’essentiel de l’actualité de l'APDP.
+                        </p>
+                        <div class="d-flex flex-row">
+                            <input type="text">
+                            <button><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>REJOIGNEZ-NOUS</h5>
+                        <p>
+                            Toute l’actualité de L'APDP en temps réel sur nos réseaux sociaux.
+                        </p>
+                        <p class="socials">
+                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter fa-2x"></i>
+                            <i class="fab fa-youtube fa-2x"></i>
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6>ESPACE JURIDIQUE ET ACTUALITES</h6>
+                        <div class="d-flex flex-row">
+                            <ul>
+                                <li>Lois</li>
+                                <li>Décrets et Arrêtés</li>
+                                <li>Évenements</li>
+                            </ul>
+                            <ul>
+                                <li>Presse</li>
+                                <li>Photothèques</li>
+                                <li>Proccédures</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>COMPTEUR DE VISISTE</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <h6>L'APDP</h6>
+                        <div class="d-flex flex-row">
+                        <ul>
+                            <li>Présentation et Missions</li>
+                            <li>Mot du Président</li>
+                            <li>Les Membres</li>
+                        </ul>
+                        <ul>
+                            <li>Les Partenaires</li>
+                            <li>Rapports annuels</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}

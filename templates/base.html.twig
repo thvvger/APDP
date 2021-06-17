@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome/css/fontawesome-all.css') }}">
+    {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+
+</head>
+<body>
+<header class="container">
+    <img src="{{ asset('logo_en_format_grand_sans_fond.png') }}" class="header__logo" alt="">
+    <ul class="menu container-fluid">
+        <li>ACCUEIL</li>
+        <li>APDP</li>
+        <li class="has-dropdown">
+            ESPACE JURIDIQUE
+            <ul>
+                <li>Chose 1</li>
+                <li>Chose 2</li>
+                <li>Chose 3</li>
+            </ul>
+        </li>
+        <li>E-SERVICES</li>
+        <li>ACTUALITES</li>
+        <li>PLAINTES</li>
+    </ul>
+    <div class="search"><i class="fa fa-search"></i></div>
+    <div class="toogle" id="toggle">
+        <div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+</header>
+{% block body %}{% endblock %}
+</body>
+</html>
